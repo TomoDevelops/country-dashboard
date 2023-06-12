@@ -6,9 +6,5 @@ html,
 body,
 #root,
 #root>div {
-  @apply bg-white text-black h-full text-base overflow-hidden
+  @apply bg-white text-black text-base
 }
-
-/* * {
-  @apply border border-red-500 border-dotted
-} */

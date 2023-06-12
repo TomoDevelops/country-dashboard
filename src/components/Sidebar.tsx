@@ -5,8 +5,8 @@ const Sidebar = () => {
     const currentPath = useLocation().pathname;
 
     return (
-        <aside className="h-[calc(100%-96px)] bg-accent w-64 flex justify-end">
-            <div className="flex flex-col h-full w-full ml-8 mr-2 gap-8 py-8 text-slate-500">
+        <aside className="h-full bg-accent w-64 flex justify-end fixed top-24">
+            <div className="flex flex-col h-full w-full ml-12 mr-8 gap-8 py-8 text-slate-500">
                 <Link
                     to="/"
                     className={`flex gap-2 items-center py-2 px-4 rounded-full transition-all ${
@@ -19,7 +19,7 @@ const Sidebar = () => {
                             : "bg-none"
                     }`}
                 >
-                    <VscHome /> Home
+                    <VscHome className="w-6 h-6" /> Home
                 </Link>
                 <Link
                     to="/profile"
@@ -33,7 +33,7 @@ const Sidebar = () => {
                             : "bg-none"
                     }`}
                 >
-                    <VscAccount />
+                    <VscAccount className="w-6 h-6" />
                     Profile
                 </Link>
                 <Link
@@ -48,7 +48,7 @@ const Sidebar = () => {
                             : "bg-none"
                     }`}
                 >
-                    <VscGear />
+                    <VscGear className="w-6 h-6" />
                     Setting
                 </Link>
                 <Link
@@ -63,7 +63,7 @@ const Sidebar = () => {
                             : "bg-none"
                     }`}
                 >
-                    <VscQuestion />
+                    <VscQuestion className="w-6 h-6" />
                     About
                 </Link>
             </div>
