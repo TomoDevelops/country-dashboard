@@ -6,7 +6,7 @@ html,
 body,
 #root,
 #root>div {
-  @apply bg-white text-black h-full overflow-hidden
+  @apply bg-white text-black h-full overflow-hidden text-base
 }
 
 * {

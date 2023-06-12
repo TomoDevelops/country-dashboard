@@ -1,9 +1,9 @@
 const Navbar = () => {
     return (
-        <header className="w-full h-20">
-            <nav className="w-full h-full flex items-center">
-                <h1>Navbar</h1>
-            </nav>
+        <header className="w-full h-24 mx-8 flex justify-between items-center">
+            <h1>
+                <img src="https://img.logoipsum.com/297.svg" />
+            </h1>
         </header>
     );
 };
