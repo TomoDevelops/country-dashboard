@@ -10,9 +10,9 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <div className="h-full">
             <Navbar />
-            <div className="w-full h-full flex justify-stretch">
+            <div className="w-full h-full flex justify-stretch overflow-hidden">
                 <Sidebar />
-                <div className="h-[calc(100%-80px)] w-full">{children}</div>
+                <div className="h-[calc(100vh-80px)] w-full">{children}</div>
             </div>
         </div>
     );
