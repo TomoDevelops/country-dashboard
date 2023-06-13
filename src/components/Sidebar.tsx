@@ -5,7 +5,7 @@ const Sidebar = () => {
     const currentPath = useLocation().pathname;
 
     return (
-        <aside className="h-full bg-accent w-64 flex justify-end fixed top-24">
+        <aside className="h-full bg-accent w-52 flex justify-end fixed top-14">
             <div className="flex flex-col h-full w-full ml-12 mr-8 gap-8 py-8 text-slate-500">
                 <Link
                     to="/"

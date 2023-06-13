@@ -1,6 +1,6 @@
 const Profile = () => {
     return (
-        <div className="w-full">
+        <div className="w-full h-full">
             <h1>Profile Page</h1>
         </div>
     );
